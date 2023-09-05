@@ -1,0 +1,24 @@
+
+.navbar-nav {
+    margin-left: auto;
+    }
+nav a.nav-link {
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+
+}
+nav ul li{
+    text-transform: uppercase;
+    margin:auto;
+    color: aliceblue;
+    
+}
+.navbar-nav > li > a  {
+    color: var(--white) !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:hover{
+    border-bottom: 0.1875rem solid orangered;
+   
+}

@@ -1,9 +1,15 @@
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+import Home from './Components/Home/Home';
+// import About from './Component/AboutMe/About';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+import './App.css';
+
+const App = () => {
   return (
-   <h2>PORTFOLIO PROJECT</h2>
+  <div className='App'>
+
+    <Home/>
+  </div>
   );
 }
 
